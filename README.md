@@ -33,7 +33,7 @@ The Somaiya Awards System is a full-stack web application built for institutes u
 ### 1\. Clone the repository
 
 ```bash
-git clone "https://github.com/Alpharius397/Somaiya-Awards.git"
+git clone "https://github.com/Pixzeyl/SomaiyaAwardsv8.git"
 cd somaiya-awards
 ```
 
