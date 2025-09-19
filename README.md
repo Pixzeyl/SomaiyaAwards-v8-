@@ -1,70 +1,70 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Somaiya Awards System
 
-## Available Scripts
+The Somaiya Awards System is a full-stack web application built for institutes under the Somaiya Trust. It streamlines the process of filling out award applications, evaluating candidates, and selecting the best recipients. The system provides tools for analyzing applicants based on form scores and overall feedback, ensuring a fair and efficient selection process.
 
-In the project directory, you can run:
+-----
 
-### `npm start`
+## ⚙️ Technologies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### **Frontend**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  - **React**
+  - **TailwindCSS**
+  - **MUI**
+  - **Three.js**
+  - **TypeScript**
 
-### `npm test`
+### **Backend**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  - **Node.js**
+  - **Express.js**
+  - **Sequelize**
+  - **JWT**
+  - **TypeScript**
 
-### `npm run build`
+### **Database**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  - **MySQL**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-----
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Installation
 
-### `npm run eject`
+### 1\. Clone the repository
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone "https://github.com/Alpharius397/Somaiya-Awards.git"
+cd somaiya-awards
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 2\. Set Up the Frontend
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+cd frontend
+npm install
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 3\. Set Up the Backend Server
 
-## Learn More
+```bash
+cd backend
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+After installing dependencies, you need to configure your environment. Save the `.template` files as `.` files and add the required credentials. Not editing the `.env` file may not stop the server from starting but can cause errors in features like sending emails. For creating an App Key, refer to this [YouTube guide](https://www.google.com/search?q=https://www.youtube.com/watch%3Fv%3DF5v6jV_SjYk).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-----
 
-### Code Splitting
+## ▶️ Running the Application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Start the backend server
 
-### Analyzing the Bundle Size
+```bash
+# Development server
+npm run dev
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Production server
+npm start
+```
